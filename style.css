@@ -283,3 +283,24 @@ gap: 20px;
 /* hide close button on desktop */
 .nav-close{ display:none; }
 
+/* Small-screen adjustments for iPhone SE (375px width) to avoid horizontal overflow */
+@media (max-width: 375px){
+    html, body { overflow-x: hidden; }
+    /* Make menu wider on very small devices (97% of viewport) and reduce padding */
+    .nav-links{ width: 97vw; max-width: none; padding: 12px; }
+    /* reduce nav link font size and padding to avoid overflow */
+    .nav-links a{ font-size: 14px; padding: 10px 12px; }
+    .nav-close{ padding: 6px 10px; }
+    /* reduce hero font sizes and spacing */
+    .hero h1{ font-size: 1.5rem; }
+    .lead{ font-size: 0.95rem; }
+    /* general body copy and metrics smaller */
+    p{ font-size: 1.2rem; }
+    .metrics{ gap: 8px; font-size: 1.1rem; }
+    .clients{ gap: 12px; }
+    .client-logo{ width: 90px; }
+    /* service and feature text adjustments */
+    .features-grid{ gap: 18px; }
+    .footer-inner p{ font-size: .9rem !important;}
+}
+
