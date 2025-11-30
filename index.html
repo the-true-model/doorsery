@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <title>Doorsery</title>
+    
+</head>
+<body>
+    <!-- anchor used by CSS-only mobile menu (clicking '#menu-target' will open mobile overlay via :target) -->
+    <a id="menu-target" class="invisible-anchor" href="#"></a>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <!-- svg can be inline or referenced. Using object keeps SVG interactive. -->
+                <object data="/assets/logo-type.svg" type="image/svg+xml"></object>
+            </div>
+            <!-- Lightweight hamburger: CSS-only toggle; links to the hidden #menu anchor to open overlay on mobile -->
+            <a class="nav-toggle" href="#menu-target" aria-label="Open navigation">☰</a>
+            <nav class="nav-links" role="navigation">
+                <a class="nav-close" href="#" aria-label="Close navigation">✕</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- overlay (not used with CSS-only target, kept for compatibility) -->
+    <div class="nav-overlay" aria-hidden="true"></div>
+    <main>
+        <img src="/assets/vjkvg-paddy.jpeg" alt="">
+
+    <section id="home" class="hero">
+        
+        <div class="hero-content">
+            <h1>Fresh produce, direct from farms to retailers</h1>
+            <p class="lead">B2B supply chain for fresh produce across India, tech-driven logistics, quality procurement, and market reach at scale.</p>
+
+            <div class="hero-actions">
+                <a class="btn btn-outline" href="mailto:mani@doorsery.com">Get in Touch</a>
+            </div>
+
+            <div class="metrics">
+                <div class="metric"><strong>10K+</strong><span> Tons supplied</span></div>
+                <div class="metric"><strong>500+</strong><span> Retail partners</span></div>
+                <div class="metric"><strong>99%</strong><span> On-time deliveries</span></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="description">
+            <h1>Your Trusted Door Supply Partner</h1>
+            <p>Doorsery, operated under Unimirror Enterprises, was founded in 2019 with a vision to revolutionize fresh produce accessibility in tier-2 cities across India. What began as an online grocery platform has evolved into a robust B2B supply chain solution.</p>
+            <p>Our journey started by addressing a critical gap in the market-connecting local retailers directly with producers and wholesalers in the fresh produce sector. By eliminating intermediaries and streamlining logistics, we enabled tier-2 city retailers to access quality fruits and vegetables at competitive prices while ensuring producers received fair value for their goods.</p>
+            <p>Today, Doorsery has scaled into a comprehensive B2B supply chain platform, serving major Indian retailers across the country. Our operations have a particularly strong presence in Andhra Pradesh and Telangana, where we have established deep relationships with both suppliers and retail partners.</p>
+            <p>Through technology-driven logistics and strategic partnerships, Doorsery continues to bridge the gap between farm and retail, ensuring freshness, efficiency, and reliability in India's fresh produce supply chain.</p>
+        </div>
+  
+
+        <h1>Our Esteemed Clients</h1>
+        <div class="clients" id="clients">
+            <img class="client-logo" src="/assets/Devyani_logo.png" alt="Devyani International">
+            <img class="client-logo" src="/assets/Dabur_Logo.svg.png" alt="Dabur">
+            <img class="client-logo" src="/assets/Namdhari's_Fresh_Logo.png" alt="Namdhari's Fresh">
+            <img class="client-logo" src="/assets/subway-logo.webp" alt="Subway">
+            <img class="client-logo" src="/assets/vijeta_logo.png" alt="Vijeta">
+            <img class="client-logo" src="/assets/walmart.png" alt="Walmart">
+            <img class="client-logo" src="/assets/saphire_foods_logo.png" alt="Saphire Foods">
+        </div>
+    </section>
+
+    <img src="/assets/1696569571278.jpeg" alt="">
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="service">
+            <h3>Comprehensive B2B Supply Chain Solutions</h3>
+            <p>We specialize in providing end-to-end supply chain solutions tailored for businesses in the fresh produce sector. Our services include procurement, logistics, inventory management, and distribution, ensuring a seamless flow of goods from producers to retailers.</p>
+        </div>
+        <div class="service">
+            <h3>Technology-Driven Logistics</h3>
+            <p>Leveraging advanced technology, we optimize logistics operations to enhance efficiency and reduce costs. Our platform offers real-time tracking, demand forecasting, and route optimization to ensure timely deliveries and minimize wastage.</p>
+        </div>
+        <div class="service">
+            <h3>Strategic Partnerships</h3>
+            <p>We build strong relationships with local producers, wholesalers, and retailers to create a robust supply network. Our partnerships enable us to source high-quality produce at competitive prices while supporting local economies.</p>
+        </div>
+    </section>
+    
+    <section class="features">
+        <h1>How Doorsery Helps You Scale</h1>
+        <div class="features-grid">
+            <div class="feature">
+                <img class="feature-img" src="/assets/delivery-fresh-2.jpg" alt="Supply chain diagram placeholder">
+                <h3>End-to-End Logistics</h3>
+                <p>From source aggregation to last-mile delivery, our logistics ensure freshness and timeliness.</p>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="/assets/vegetables-india-farmer.jpg" alt="Quality check placeholder">
+                <h3>Quality & Traceability</h3>
+                <p>Batch-level traceability and quality checks ensure consistent produce standards.</p>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="/assets/vegetables.avif" alt="Tech platform placeholder">
+                <h3>Technology-Driven Platform</h3>
+                <p>Real-time orders, demand forecasting, and analytics to optimize costs and reduce waste.</p>
+            </div>
+        </div>
+    </section>
+  
+    <img src="/assets/delivery-fresh.jpg" alt="">
+    <!-- Contact section removed (mail link in footer below) -->
+    
+    <footer class="site-footer" id="contact">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p>A Unimirror Enterprises Pvt. Ltd. Company. Connecting farms, retailers & markets</p>
+            </div>
+             <div class="footer-contact">
+                <p>Contact us directly for partnership and sourcing:</p>
+                <p><a href="mailto:mani@doorsery.com">mani@doorsery.com</a></p>
+                <p><a href="tel:+917036940369">+91 70369 40369</a></p>
+                
+            </div>
+             <div>
+                <p>&copy; 2024 Doorsery. All rights reserved.</p>
+                <p>GST: 37AACCU5438R1ZK</p>
+            </div>
+            <div>
+                <p><a href="">Instagram↗</a></p>
+                <p><a href="">LinkedIn↗</a></p>
+                <p><a href="">Facebook↗</a></p>
+            </div>
+           
+           
+        </div>
+        <div>
+            <img src="/assets/footer.svg" alt="" class="footer_image">
+        </div>
+    </footer>
+    </main>
+    <script>
+        // Simple nav toggle for mobile
+        (function(){
+            const toggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('.nav-links');
+            const header = document.querySelector('header');
+            // JS enhancement: open/close mobile overlay using JS (prevents hash change and improves UX).
+            if(toggle){
+                toggle.addEventListener('click', function(e){
+                    e.preventDefault();
+                    nav.classList.toggle('open-js');
+                    const ov = document.querySelector('.nav-overlay');
+                    if(ov) ov.classList.toggle('open-js');
+                    // Toggle header scrolled state for contrast when menu open
+                    if(nav.classList.contains('open-js')){
+                        header && header.classList.add('scrolled');
+                    } else if(window.scrollY <= 16){
+                        header && header.classList.remove('scrolled');
+                    }
+                });
+            }
+
+            // Active link behavior (click + scroll spy)
+            const links = Array.from(document.querySelectorAll('.nav-links a'));
+            function setActiveLink(el){
+                links.forEach(l => l.classList.remove('active'));
+                el && el.classList.add('active');
+            }
+            // Set active class on click; anchor navigation will open/close the menu via :target
+            links.forEach(link => {
+                link.addEventListener('click', function(){
+                    setActiveLink(this);
+                    // If menu is open via JS, close it (so content becomes visible fast on small screens)
+                    if(nav.classList.contains('open-js')){
+                        nav.classList.remove('open-js');
+                        const ov2 = document.querySelector('.nav-overlay');
+                        if(ov2) ov2.classList.remove('open-js');
+                    }
+                });
+            });
+            const navClose = document.querySelector('.nav-close');
+            navClose && navClose.addEventListener('click', function(e){
+                e.preventDefault();
+                nav.classList.remove('open-js');
+                const ov2 = document.querySelector('.nav-overlay');
+                if(ov2) ov2.classList.remove('open-js');
+            });
+
+            // Optional: scroll spy highlight (simple version)
+            const sections = document.querySelectorAll('section[id]');
+            function highlightOnScroll(){
+                // compute dynamic offset based on header height so header does not overlap the section title
+                const headerHeight = header ? header.offsetHeight : 0;
+                const scrollTop = window.scrollY + headerHeight + 8;
+                let current = null;
+                sections.forEach(s=>{
+                    const top = s.getBoundingClientRect().top + window.scrollY;
+                    if(scrollTop >= top) current = s.id;
+                });
+                // if we found a current section, set active link; else clear
+                if(current){
+                    const l = document.querySelector('.nav-links a[href="#'+current+'"]');
+                    if(l){ setActiveLink(l); }
+                } else {
+                    // no section, remove active from all
+                    setActiveLink(null);
+                }
+            }
+            window.addEventListener('scroll', highlightOnScroll);
+            window.addEventListener('resize', highlightOnScroll);
+            // call once initially to set active state based on start position
+            highlightOnScroll();
+            // Overlay click closes the menu when using JS enhancement
+            const overlay = document.querySelector('.nav-overlay');
+            overlay && overlay.addEventListener('click', function(){
+                nav.classList.remove('open-js');
+                this.classList.remove('open-js');
+                // also remove scrolled background if at top
+                if(window.scrollY <= 16){ header && header.classList.remove('scrolled'); }
+            });
+            // No JS escape handler - CSS :target handles menu state; pressing Escape will not toggle the CSS target. Keep keyboard handling minimal.
+            
+            // add a class to header on scroll so background appears
+            function handleHeaderScroll(){
+                const threshold = 16;
+                if(window.scrollY > threshold){
+                    header && header.classList.add('scrolled');
+                } else {
+                    header && header.classList.remove('scrolled');
+                }
+            }
+            window.addEventListener('scroll', handleHeaderScroll);
+            window.addEventListener('resize', handleHeaderScroll);
+            handleHeaderScroll();
+
+            // Add IntersectionObserver to toggle visibility class on section headings
+            (function(){
+                const observedSections = document.querySelectorAll('section[id]');
+                if(!observedSections.length) return;
+                const observer = new IntersectionObserver((entries)=>{
+                    entries.forEach(entry=>{
+                        const heading = entry.target.querySelector('h1, h2, h3');
+                        if(heading){
+                            if(entry.isIntersecting){
+                                heading.classList.add('visible');
+                            } else {
+                                heading.classList.remove('visible');
+                            }
+                        }
+                    });
+                }, { root: null, rootMargin: '-10% 0px -30% 0px', threshold: 0.25 });
+                observedSections.forEach(s=> observer.observe(s));
+            })();
+        })();
+    </script>
+
+
+</body>
+</html>
